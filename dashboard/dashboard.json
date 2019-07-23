@@ -1,0 +1,1144 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1563538165645,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "b7e94cc0-5749-4919-b3bf-10be1c0ef45d",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Custom Dashboards/Environment Overview v6",
+      "namePath": "Custom Dashboards",
+      "rank": 613,
+      "shared": false,
+      "states": [],
+      "temporary": false,
+      "userId": "2a41f813-7a96-4cf0-ace6-e8c383b25024",
+      "widgetInteractions": [{
+         "type": "resourceId",
+         "widgetIdProvider": "476253e8-f2de-45d5-ad3d-cc7ff71b682a",
+         "widgetIdReceiver": "fce6349a-15eb-4f0b-9473-e28e07bc9cac"
+      }],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "filterMode": "tagPicker",
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002006VMWAREClusterComputeResource",
+                     "parentId": "VMWARE",
+                     "parentText": "vCenter Adapter",
+                     "text": "Cluster Compute Resource",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:0_::_"
+                  },
+                  "mode": {"mode": false},
+                  "name": "esxi host health",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:1_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "thenBy": null
+               }],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  1,
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "ESXi Host Health",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 3,
+               "x": 4,
+               "y": 10
+            },
+            "height": 438,
+            "id": "33b35ba5-79fe-490a-9a35-4c9345dcaaf5",
+            "states": [{
+               "key": "perm_HeatMap_widget_b7e94cc0-5749-4919-b3bf-10be1c0ef45d_33b35ba5-79fe-490a-9a35-4c9345dcaaf5",
+               "value": "o%3A"
+            }],
+            "title": "ESXi Host Health",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "customFilter": null,
+                  "filterMode": "tagPicker",
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002006VMWAREHostSystem",
+                     "parentId": "VMWARE",
+                     "parentText": "vCenter Adapter",
+                     "text": "Host System",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:1_::_"
+                  },
+                  "mode": {"mode": false},
+                  "name": "vm health",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:2_::_",
+                  "sizeBy": {
+                     "metricKey": "cpu|usage_average",
+                     "value": "CPU|Usage (%)"
+                  },
+                  "solidColoring": false,
+                  "tagFilter": null,
+                  "thenBy": null
+               }],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  1,
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "VM Health",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 3,
+               "x": 7,
+               "y": 10
+            },
+            "height": 438,
+            "id": "b5ea8693-0076-4473-b2d0-6772d53f9869",
+            "states": [{
+               "key": "perm_HeatMap_widget_b7e94cc0-5749-4919-b3bf-10be1c0ef45d_b5ea8693-0076-4473-b2d0-6772d53f9869",
+               "value": "o%3A"
+            }],
+            "title": "VM Health",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "customFilter": null,
+                  "filterMode": "tagPicker",
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002015CiscoUcsAdapterbm_ucs_chassis",
+                     "originalText": "Cisco UCS Chassis",
+                     "parentId": "CiscoUcsAdapter",
+                     "parentText": "Cisco UCS",
+                     "text": "Cisco UCS Chassis",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:3_::_"
+                  },
+                  "id": "extModel6134-1",
+                  "mode": {"mode": false},
+                  "name": "ucs health",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:4_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "tagFilter": null,
+                  "thenBy": null
+               }],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  1,
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "Cisco UCS Blade Health",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 1,
+               "y": 18
+            },
+            "height": 210,
+            "id": "d209746c-c4e7-4d12-b623-eda25563d5e7",
+            "states": [{
+               "key": "perm_HeatMap_widget_b7e94cc0-5749-4919-b3bf-10be1c0ef45d_d209746c-c4e7-4d12-b623-eda25563d5e7",
+               "value": "o%3A"
+            }],
+            "title": "Cisco UCS Blade Health",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "customFilter": null,
+                  "filterMode": "tagPicker",
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002006VMWAREDatacenter",
+                     "parentId": "VMWARE",
+                     "parentText": "vCenter Adapter",
+                     "text": "Datacenter",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:5_::_"
+                  },
+                  "id": "extModel4797-2",
+                  "mode": {"mode": false},
+                  "name": "cluster health",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:0_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "tagFilter": null,
+                  "thenBy": null
+               }],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  1,
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "Cluster Health",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 3,
+               "x": 1,
+               "y": 10
+            },
+            "height": 438,
+            "id": "256cb139-eb11-4e44-8875-0c5f2e73ec8d",
+            "states": [{
+               "key": "perm_HeatMap_widget_b7e94cc0-5749-4919-b3bf-10be1c0ef45d_256cb139-eb11-4e44-8875-0c5f2e73ec8d",
+               "value": "o%3A"
+            }],
+            "title": "Cluster Health",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": "2,2",
+               "filterMode": "tagPicker",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resourceId": null,
+               "resourceName": null,
+               "selfProvider": {"selfProvider": false},
+               "tagFilter": null,
+               "title": "Advanced Object Relationship (for selected Alert)",
+               "traversalSpecId": ""
+            },
+            "gridsterCoords": {
+               "h": 9,
+               "w": 6,
+               "x": 7,
+               "y": 1
+            },
+            "height": 494,
+            "id": "fce6349a-15eb-4f0b-9473-e28e07bc9cac",
+            "states": [
+               {
+                  "key": "perm_viewerType_widget_b7e94cc0-5749-4919-b3bf-10be1c0ef45d_fce6349a-15eb-4f0b-9473-e28e07bc9cac",
+                  "value": "s%3ArelationshipTree"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_b7e94cc0-5749-4919-b3bf-10be1c0ef45d_fce6349a-15eb-4f0b-9473-e28e07bc9cac",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "perm_ResourceRelationshipTree_widget_b7e94cc0-5749-4919-b3bf-10be1c0ef45d_fce6349a-15eb-4f0b-9473-e28e07bc9cac",
+                  "value": "o%3A"
+               }
+            ],
+            "title": "Advanced Object Relationship (for selected Alert)",
+            "type": "ResourceRelationshipAdvanced"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "alertAction": [],
+               "alertImpact": [],
+               "criticalityLevel": [],
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "filterMode": "tagPicker",
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "state": [],
+               "status": [],
+               "tagFilter": null,
+               "title": "Alerts",
+               "type": []
+            },
+            "gridsterCoords": {
+               "h": 9,
+               "w": 6,
+               "x": 1,
+               "y": 1
+            },
+            "height": 494,
+            "id": "476253e8-f2de-45d5-ad3d-cc7ff71b682a",
+            "states": [
+               {
+                  "key": "permDateFilter_widget_b7e94cc0-5749-4919-b3bf-10be1c0ef45d_476253e8-f2de-45d5-ad3d-cc7ff71b682a",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permViewMode_widget_b7e94cc0-5749-4919-b3bf-10be1c0ef45d_476253e8-f2de-45d5-ad3d-cc7ff71b682a",
+                  "value": "s%3Atime"
+               },
+               {
+                  "key": "permAlertGrid_perm_widget_b7e94cc0-5749-4919-b3bf-10be1c0ef45d_476253e8-f2de-45d5-ad3d-cc7ff71b682a",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A94.642578125%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ewidth%25253Dn%2525253A744.1953125%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ewidth%25253Dn%2525253A414.125%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AstartTimeUtc%2525255Edirection%2525253Ds%252525253ADESC%2525255Eid%2525253Ds%252525253AstartTimeUtc"
+               }
+            ],
+            "title": "Alerts",
+            "type": "AlertList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "customFilter": null,
+                  "filterMode": "tagPicker",
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002006VMWAREvSphere World",
+                     "parentId": "VMWARE",
+                     "parentText": "vCenter Adapter",
+                     "text": "vSphere World",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:6_::_"
+                  },
+                  "mode": {"mode": false},
+                  "name": "poweredge health",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:7_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "tagFilter": null,
+                  "thenBy": null
+               }],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  1,
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "Dell EMC PowerEdge Rack Health",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 5,
+               "y": 18
+            },
+            "height": 210,
+            "id": "4a4f4722-e1d1-4821-bf57-d81b012adf86",
+            "states": [{
+               "key": "perm_HeatMap_widget_b7e94cc0-5749-4919-b3bf-10be1c0ef45d_4a4f4722-e1d1-4821-bf57-d81b012adf86",
+               "value": "o%3A"
+            }],
+            "title": "Dell EMC PowerEdge Rack Health",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "customFilter": null,
+                  "filterMode": "tagPicker",
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002006VMWAREHostSystem",
+                     "parentId": "VMWARE",
+                     "parentText": "vCenter Adapter",
+                     "text": "Host System",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:1_::_"
+                  },
+                  "mode": {"mode": false},
+                  "name": "datastore health",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:8_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "tagFilter": null,
+                  "thenBy": null
+               }],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  1,
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "Datastore Health",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 3,
+               "x": 10,
+               "y": 10
+            },
+            "height": 438,
+            "id": "d22675cf-086e-4ede-ba14-26ed1c98f274",
+            "states": [{
+               "key": "perm_HeatMap_widget_b7e94cc0-5749-4919-b3bf-10be1c0ef45d_d22675cf-086e-4ede-ba14-26ed1c98f274",
+               "value": "o%3A"
+            }],
+            "title": "Datastore Health",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "filterMode": "tagPicker",
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002018NETAPPOCUM_ADAPTERnetapp_ocum_bm_exuno_netappocum_cluster",
+                     "parentId": "NETAPPOCUM_ADAPTER",
+                     "parentText": "NetApp OCUM",
+                     "text": "NetApp OCUM Cluster",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:9_::_"
+                  },
+                  "id": "extModel7927-1",
+                  "mode": {"mode": false},
+                  "name": "ocum health",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:10_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "thenBy": null
+               }],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  1,
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "NetApp OCUM Aggregate Health",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 1,
+               "y": 26
+            },
+            "height": 210,
+            "id": "18d15eb5-930b-450b-8816-0b1e743d9158",
+            "states": [{
+               "key": "perm_HeatMap_widget_b7e94cc0-5749-4919-b3bf-10be1c0ef45d_18d15eb5-930b-450b-8816-0b1e743d9158",
+               "value": "o%3A"
+            }],
+            "title": "NetApp OCUM Aggregate Health",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "customFilter": null,
+                  "filterMode": "tagPicker",
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002006VMWAREvSphere World",
+                     "parentId": "VMWARE",
+                     "parentText": "vCenter Adapter",
+                     "text": "vSphere World",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:6_::_"
+                  },
+                  "mode": {"mode": false},
+                  "name": "pure health",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:11_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "tagFilter": null,
+                  "thenBy": null
+               }],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  1,
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "Pure Array Health",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 5,
+               "y": 26
+            },
+            "height": 210,
+            "id": "26186842-e408-43d2-a70c-14d5fc84486a",
+            "states": [{
+               "key": "perm_HeatMap_widget_b7e94cc0-5749-4919-b3bf-10be1c0ef45d_26186842-e408-43d2-a70c-14d5fc84486a",
+               "value": "o%3A"
+            }],
+            "title": "Pure Array Health",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "filterMode": "tagPicker",
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002006VMWAREvSphere World",
+                     "parentId": "VMWARE",
+                     "parentText": "vCenter Adapter",
+                     "text": "vSphere World",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:6_::_"
+                  },
+                  "id": "extModel11039-1",
+                  "mode": {"mode": false},
+                  "name": "switch health",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:12_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "thenBy": null
+               }],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  1,
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "Cisco Switch Health",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 6,
+               "x": 1,
+               "y": 22
+            },
+            "height": 210,
+            "id": "d5484dee-ddda-4552-98e0-32f0c485d871",
+            "states": [{
+               "key": "perm_HeatMap_widget_b7e94cc0-5749-4919-b3bf-10be1c0ef45d_d5484dee-ddda-4552-98e0-32f0c485d871",
+               "value": "o%3A"
+            }],
+            "title": "Cisco Switch Health",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "customFilter": null,
+                  "filterMode": "tagPicker",
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002006VMWAREvSphere World",
+                     "parentId": "VMWARE",
+                     "parentText": "vCenter Adapter",
+                     "text": "vSphere World",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:6_::_"
+                  },
+                  "id": "extModel9963-1",
+                  "mode": {"mode": false},
+                  "name": "switch health",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:13_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "tagFilter": null,
+                  "thenBy": null
+               }],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  1,
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "Generic Switch Health",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 6,
+               "x": 7,
+               "y": 22
+            },
+            "height": 210,
+            "id": "00b8872f-780f-4938-bcb0-a498d641cd75",
+            "states": [{
+               "key": "perm_HeatMap_widget_b7e94cc0-5749-4919-b3bf-10be1c0ef45d_00b8872f-780f-4938-bcb0-a498d641cd75",
+               "value": "o%3A"
+            }],
+            "title": "Generic Switch Health",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "customFilter": null,
+                  "filterMode": "tagPicker",
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002016HPComputeAdapterhp_chassis",
+                     "originalText": "HPE Chassis",
+                     "parentId": "HPComputeAdapter",
+                     "parentText": "HPE Servers Adapter",
+                     "text": "HPE Chassis",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:14_::_"
+                  },
+                  "mode": {"mode": false},
+                  "name": "hpe health",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:15_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "tagFilter": null,
+                  "thenBy": null
+               }],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  1,
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "HPE ProLiant Blade Health",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 9,
+               "y": 18
+            },
+            "height": 210,
+            "id": "bb35ca44-7ca6-4226-a4e4-f8a30bad66ff",
+            "states": [{
+               "key": "perm_HeatMap_widget_b7e94cc0-5749-4919-b3bf-10be1c0ef45d_bb35ca44-7ca6-4226-a4e4-f8a30bad66ff",
+               "value": "o%3A"
+            }],
+            "title": "HPE ProLiant Blade Health",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "customFilter": null,
+                  "filterMode": "tagPicker",
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002006VMWAREvSphere World",
+                     "parentId": "VMWARE",
+                     "parentText": "vCenter Adapter",
+                     "text": "vSphere World",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:6_::_"
+                  },
+                  "id": "extModel7088-1",
+                  "mode": {"mode": false},
+                  "name": "vmax health",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:16_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "tagFilter": null,
+                  "thenBy": null
+               }],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  1,
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "Dell EMC VMX Array Health",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 9,
+               "y": 26
+            },
+            "height": 210,
+            "id": "d112a539-a184-4d57-b885-8ba36e317257",
+            "states": [{
+               "key": "perm_HeatMap_widget_b7e94cc0-5749-4919-b3bf-10be1c0ef45d_d112a539-a184-4d57-b885-8ba36e317257",
+               "value": "o%3A"
+            }],
+            "title": "Dell EMC VMX Array Health",
+            "type": "Heatmap"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [
+      {
+         "adapterKindKey": "HPComputeAdapter",
+         "internalId": "resourceKind:id:15_::_",
+         "resourceKindKey": "hp_blade"
+      },
+      {
+         "adapterKindKey": "PURESTORAGEFLASHARRAY_ADAPTER",
+         "internalId": "resourceKind:id:11_::_",
+         "resourceKindKey": "pure_storage_flasharray_purestorage_flasharray_array"
+      },
+      {
+         "adapterKindKey": "HPComputeAdapter",
+         "internalId": "resourceKind:id:14_::_",
+         "resourceKindKey": "hp_chassis"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:5_::_",
+         "resourceKindKey": "Datacenter"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:2_::_",
+         "resourceKindKey": "VirtualMachine"
+      },
+      {
+         "adapterKindKey": "NETAPPOCUM_ADAPTER",
+         "internalId": "resourceKind:id:10_::_",
+         "resourceKindKey": "netapp_ocum_bm_exuno_netappocum_aggregate"
+      },
+      {
+         "adapterKindKey": "DELL_EMC_COMPUTE_ADAPTER",
+         "internalId": "resourceKind:id:7_::_",
+         "resourceKindKey": "dell_emc_compute_bm_exuno_dellcompute_rack_server"
+      },
+      {
+         "adapterKindKey": "CiscoUcsAdapter",
+         "internalId": "resourceKind:id:4_::_",
+         "resourceKindKey": "bm_ucs_blade"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:6_::_",
+         "resourceKindKey": "vSphere World"
+      },
+      {
+         "adapterKindKey": "EMCVMAX_ADAPTER",
+         "internalId": "resourceKind:id:16_::_",
+         "resourceKindKey": "array"
+      },
+      {
+         "adapterKindKey": "CiscoUcsAdapter",
+         "internalId": "resourceKind:id:3_::_",
+         "resourceKindKey": "bm_ucs_chassis"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:1_::_",
+         "resourceKindKey": "HostSystem"
+      },
+      {
+         "adapterKindKey": "CiscoNetworkingAdapter",
+         "internalId": "resourceKind:id:12_::_",
+         "resourceKindKey": "cisco_networking_switch"
+      },
+      {
+         "adapterKindKey": "NETWORKINGDEVICES_ADAPTER",
+         "internalId": "resourceKind:id:13_::_",
+         "resourceKindKey": "networking_devices_networking_devices_network_device"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:0_::_",
+         "resourceKindKey": "ClusterComputeResource"
+      },
+      {
+         "adapterKindKey": "NETAPPOCUM_ADAPTER",
+         "internalId": "resourceKind:id:9_::_",
+         "resourceKindKey": "netapp_ocum_bm_exuno_netappocum_cluster"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:8_::_",
+         "resourceKindKey": "Datastore"
+      }
+   ]},
+   "uuid": "943e1022-6007-4d09-81e6-725bc21f22eb"
+}
